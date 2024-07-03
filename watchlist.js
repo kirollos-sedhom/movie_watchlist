@@ -21,7 +21,8 @@ document.addEventListener('click', function(e){
         mainBody.innerHTML = `
                 <div class="container">
                 <p class="empty-list">Your watchlist is looking a little empty...</p>
-                <p class="add-movies"><i class="fa-solid fa-circle-plus"></i> Let's add some movies!</p>
+                <a class="movies-page" href="./index.html"><p class="add-movies"><i class="fa-solid fa-circle-plus"></i> Let's add some movies!</p></a>
+                
            
             </div>
         `
